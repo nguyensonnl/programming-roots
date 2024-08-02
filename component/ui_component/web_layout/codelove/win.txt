@@ -1,0 +1,14 @@
+youtube codelove
+
+*setup:
+1. icon: font-awesome
+2. font-google
+
+1. reset css
+2. config mặc định css dựa trên tính chất inherit
+
+style:
+1. layout (định vị mà các phần tử đúng vị trí trên web)
+2. style chi tiết từng phần
+3. style phần lớn trước (box model)
+4. style chi tiết text (style to text)

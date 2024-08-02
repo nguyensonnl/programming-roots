@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: gray;
+      }
+      main {
+        background-color: white;
+        margin: 20px 0;
+        padding: 10px;
+      }
+      .center {
+        margin: 0 auto;
+        width: 200px;
+        background-color: blue;
+        color: #fff;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <!--
+  Căn giữa một phần tử block
+  marin-left: 0;
+  marin-right: 0;
+  phải set width, nếu không thì chiều rộng của nó là 100% bằng phần tử cha
+  và không căn giữa, giải pháp này không áp dụng căn giữa cho nội dung bên trong nó
+  -->
+  <body>
+    <main>
+      <div class="center">Đây là một block-element và được căn giữa</div>
+    </main>
+  </body>
+</html>

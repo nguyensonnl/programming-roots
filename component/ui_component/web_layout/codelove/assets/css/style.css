@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color-white: #fff;
+  --color-blue-lighter: #f4f9cc;
+  --color-gray: #ddd;
+  --color-red: #ff324d;
+  --color-black: #212529;
+  --color-yellow: #f6bc3e;
+  --color-green: #388e3c;
+  --color-gray-lighter: #687188;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: var(--color-black);
+}
+
+.pages-link li a.active {
+  color: var(--color-red);
+}
+
+header {
+  padding: 13px 0;
+  background-color: var(--color-white);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px dashed red;
+  padding: 0 10px;
+}
+/*---- style header ------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu-right {
+  display: flex;
+  align-items: center;
+}
+.menu-right .pages-link {
+  display: flex;
+}
+.menu-right .search {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: -10px;
+}
+/*style chi tiết logo*/
+/* fix 2 chiều */
+.logo a {
+  display: block;
+  width: 182px;
+}
+.logo a img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+/*style chi tiết menu-right*/
+.pages-link li a {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 600;
+  transform: all 0.5s;
+}
+.pages-link li a:hover {
+  color: var(--color-red);
+}
+.search li {
+  display: inline-block;
+  padding: 10px;
+}
+.search li i:hover {
+  cursor: pointer;
+  color: var(--color-red);
+}
+/*----- style header -----*/
